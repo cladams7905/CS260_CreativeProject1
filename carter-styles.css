@@ -1,4 +1,45 @@
 .main-container{
-    padding-left:2em;
-    padding-right: 2em;
+    padding-left:1em;
+    padding-right: 1em;
+}
+.img-container{
+  position: relative;
+  text-align: center;
+}
+.text-container{
+  
+}
+.text-centered {
+  position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-bottom{
+  position: absolute;
+  top:65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lg{
+  font-size:10vw;
+  white-space: nowrap;
+}
+.md{
+  font-size: 2.2vw;
+}
+.line{
+  width:40vw;
+  height:5px;
+  border-radius: 4px;
+  background-color:black;
+  top:60%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.banner-img{
+    width:100%;
+    object-fit: cover;
+    object-position: top;
+    max-height: 90vh;
 }
