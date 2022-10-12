@@ -43,3 +43,15 @@
     object-position: top;
     max-height: 90vh;
 }
+.album-list{
+  display:table;
+  width:100%;
+  border-style: solid;
+}
+.footer{
+    background-color:#212529;
+    color:white;
+    height:auto;
+    width:100%;
+    padding:1em;
+}
